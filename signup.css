@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(/pexels-chait-goli-2666598.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 25vh;
+    font-size: 5vh;
+    color: red;
+}
+
+.total {
+    overflow: hidden;
+}
+
+.groupid {
+    text-align: center;
+    padding-top: 1vh;
+    padding-left: 40vh;
+    font-size: 4vh;
+    overflow: hidden;
+    padding: 8px 0px;
+    margin: 8px 0px;
+    width: 100%;
+}
+
+.groupid input {
+    border: none;
+    outline: none;
+    background: none;
+    color: rgb(255, 0, 0);
+    font-size: 18px;
+    width: 50%;
+    margin: 0 10px;
+}
+
+
+.password {
+    text-align: center;
+    padding-top: 1vh;
+    padding-left: 40vh;
+    font-size: 4vh;
+    overflow: hidden;
+    font-size: 24px;
+    padding: 8px 0px;
+    margin: 8px 0px;
+    width: 100%;
+}
+
+.password input {
+    border: none;
+    outline: none;
+    background: none;
+    color: rgb(255, 0, 0);
+    font-size: 18px;
+    width: 50%;
+    margin: 0 10px;
+}
+
+.btn {
+    text-align: center;
+    padding-top: 2vh;
+}
+
+#signup {
+    width: 19vw;
+    height: 50px;
+    border: 3px solid;
+    border-radius: 25px;
+    background: none;
+    font-size: 18px;
+    font-weight: 800;
+    outline: none;
+    cursor: pointer;
+}
+
+.hva {
+    text-align: center;
+    padding-top: 3vh;
+}
+
+.signin {
+    color: red;
+}
+
+.footer {
+    color: yellow;
+    padding-top: 5vh;
+    text-align: center;
+    font-size: 3vh;
+}
+
+::placeholder {
+    color: rgb(255, 242, 0);
+    opacity: 1;
+}
+
+.hva {
+    color: yellow;
+}
+
+.alert {
+    color: yellowgreen;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.note {
+    text-align: center;
+    padding-top: 25vh;
+    color: yellow;
+    font-size: small;
+}

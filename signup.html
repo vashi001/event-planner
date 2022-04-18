@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planning Paradise</title>
+    <link rel="stylesheet" href="signup.css">
+    <script src="https://kit.fontawesome.com/eff077d036.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <h1>JOIN A GROUP</h1>
+    <div class="total" id="totalsignup">
+        <form onsubmit="login()" id="contactForm">
+            <div class="groupid" style="padding-left: 16vw;">
+                <i class="fa-solid fa-user-group"></i>
+                <input type="text" id="email" placeholder="Group id" style="color: rgb(0, 247, 255);" required>
+            </div>
+            <div class="password" style="padding-left: 16vw;">
+                <i class="fa-solid fa-lock"></i>
+                <input type="password" id="password" placeholder=" password" style="color:rgb(0, 247, 255);" required>
+            </div>
+            <div class="btn">
+                <button type="submit" id="signup">LOG IN </button>
+            </div>
+        </form>
+        <div class="hva">
+            Don't Have An Account? <a href="/sign in.html" class="signin" target="_blank">JOIN NOW</a>
+        </div>
+        <div class="note">
+            <h2>*GROUP ID IS SAME AS THE GROUP ADMIN EMAIL
+                AND SIMILARLY THE PASSWORD*
+            </h2>
+
+        </div>
+    </div>
+</body>
+<footer class="footer">
+    copyright &copy;2022 planning paradise. All rights recieved
+</footer>
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-app.js"></script>
+<!-- TODO: Add SDKs f or Firebase products that you want to use
+             https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-database.js"></script>
+
+<script src="firebase.js"></script>
+<script src="crtgp.js"></script>
+
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Planning Paradise</title>
+  <link rel="stylesheet" href="signin.css">
+  <script src="https://kit.fontawesome.com/eff077d036.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <div class="loginbox">
+    <h1>Sign In</h1>
+    <form onsubmit="login()" id="loginForm">
+      <small> <span id="error" style="color: red;"></span> </small>
+      <div class="textbox">
+        <i class="fa-solid fa-user"></i>
+        <input id="email" type="email" name="" placeholder="Username">
+      </div>
+      <div class="textbox">
+        <i class="fa-solid fa-lock"></i>
+        <input id="password" type="password" name="" placeholder="Password">
+      </div>
+      <div class="forgotpass">
+        Forgot Password?
+      </div>
+      <div class="btn">
+        <button id="signin" type="submit">login</button>
+      </div>
+      <div class="c">.</div>
+      <button onclick="signup()" id="signin">sign up</button>
+    </form>
+
+  </div>
+  <footer class="footer">
+    copyright &copy;2022 planning paradise. All rights recieved
+  </footer>
+
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-app.js"></script>
+  <!-- TODO: Add SDKs f or Firebase products that you want to use
+             https://firebase.google.com/docs/web/setup#available-libraries -->
+  <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-analytics.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-database.js"></script>
+
+
+
+  <script src="firebase.js"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>
