@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planning Paradise</title>
+    <link rel="stylesheet" href="welcome.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="main">
+        <h1>welcome </h1>
+        <div class="msg">
+            <span class="messsage" id="user">Hello,< email-id></span>
+        </div>
+
+        <div class="createagroup">
+            <a href="/sign in.html" class=""
+                style="color: red; text-decoration: none; font-family: 'Alfa Slab One', cursive;" target="_blank">create
+                a Group</a>
+        </div>
+        <div class="joinagroup">
+            <a href="/group.html" class="" target="_blank"
+                style="color: red; text-decoration: none; font-family: 'Alfa Slab One', cursive; ">Join a Group</a>
+        </div>
+
+        <div class="btn">
+            <button onclick="logout()" id="logout" class="boton">log out </button>
+        </div>
+
+
+        <footer class="footer">
+            copyright &copy;2022 planning paradise. All rights recieved
+        </footer>
+    </div>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-app.js"></script>
+    <!-- TODO: Add SDKs f or Firebase products that you want to use
+           https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-database.js"></script>
+
+    <script src="firebase.js"></script>
+    <script src="welcome.js"></script>
+
+</body>
+
+</html>
