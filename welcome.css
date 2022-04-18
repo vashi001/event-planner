@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    background-image: url(/7-77645_red-and-black-abstract-wallpaper-full-hd-1080p.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Grape Nuts', cursive;
+    font-size: 79px;
+    padding-top: 22px;
+    color: yellow;
+}
+
+.msg {
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 54px;
+    padding-top: 10px;
+    color: yellow;
+}
+
+.btn {
+    text-align: center;
+    padding-top: 51px;
+
+}
+
+.boton:hover {
+    color: #225784;
+    background: #2196f3;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+}
+
+.createagroup {
+    text-align: center;
+    padding-top: 18vh;
+    font-size: 32px;
+}
+
+.joinagroup {
+    text-align: center;
+    padding-top: 18vh;
+    font-size: 32px;
+}
+
+.footer {
+    padding-top: 10vh;
+    text-align: center;
+    font-size: 23px;
+    font-weight: bolder;
+    font-family: 'Josefin Sans', sans-serif;
+    color: yellow;
+}
+
+#logout {
+    width: 20%;
+    height: 50px;
+    border: 3px solid;
+    border-radius: 25px;
+    background: none;
+    font-size: 18px;
+    font-weight: 800;
+    outline: none;
+    cursor: pointer;
+    color: red;
+}
