@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/210-2101051_dark-web-scanning-background-image-for-website-of.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: red;
+}
+
+.hey {
+    font-size: 30px;
+    font-family: 'Anton', sans-serif;
+}
+
+.h1 {
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+    font-family: 'Akshar', sans-serif;
+    font-size: 25px;
+    animation: colorchange 6s infinite alternate;
+}
+
+.history p {
+    font-size: 30px;
+    font-family: 'Square Peg', cursive;
+    color: yellow;
+    font-weight: bolder;
+}
+
+h2 {
+    padding-top: 4vh;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.features p {
+    font-size: 30px;
+    font-family: 'Square Peg', cursive;
+    color: yellow;
+    font-weight: bolder;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+.footer {
+    padding-top: 2vh;
+    text-align: center;
+    font-size: 23px;
+    font-weight: bolder;
+    font-family: 'Josefin Sans', sans-serif;
+    color: pink;
+}
+
+.grt {
+    font-family: 'Akshar', sans-serif;
+}
+
+@keyframes colorchange {
+    0% {
+
+        color: yellow;
+    }
+
+    25% {
+
+        color: rgb(234, 243, 64);
+    }
+
+    50% {
+
+        color: rgb(132, 255, 0);
+    }
+
+    75% {
+
+        color: rgb(0, 255, 195);
+    }
+
+    100% {
+
+        color: rgb(142, 0, 251);
+    }
+
+}
