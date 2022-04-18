@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/491195-reasons-broadcast-emails-may-be-quietly-breaking-your-email-program.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.us {
+    padding-top: 2vh;
+    font-size: 30px;
+    color: yellow;
+    font-family: 'Oswald', sans-serif;
+}
+
+.hlp {
+    padding-top: 3vh;
+    font-size: 30px;
+    color: red;
+    font-family: 'Square Peg', cursive;
+}
+
+.QRS {
+    padding-top: 1vh;
+    font-size: 40px;
+    color: yellow;
+    font-family: 'Oswald', sans-serif;
+}
+
+.faq {
+    padding-top: 4vh;
+    font-size: 20px;
+}
+
+.faq h3 {
+    padding-top: 1vh;
+    font-size: 30px;
+}
+.note{
+    font-size: 4vh;
+    color: rgb(255, 0, 0);
+    font-family: 'Oswald', sans-serif;
+}
+.join {
+    color: black;
+    font-family: 'Permanent Marker', cursive;
+}
+
+#join {
+    color: rgb(255, 251, 0);
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.how {
+    color: rgb(0, 247, 255);
+    font-family: 'Permanent Marker', cursive;
+}
+
+#how {
+    color: red;
+    font-weight: bolder;
+}
+
+.footer {
+    padding-top: 2vh;
+    text-align: center;
+    font-size: 23px;
+    font-weight: bolder;
+    font-family: 'Josefin Sans', sans-serif;
+    color: pink;
+}
